@@ -112,7 +112,7 @@ def main():
     # on_ready event handler rather than an on_ready listener.
     @discord_common.on_ready_event_once(bot)
     async def init():
-        clist_api.cache()
+        #clist_api.cache()
         await cf_common.initialize(args.nodb)
         asyncio.create_task(discord_common.presence(bot))
 
