@@ -30,7 +30,7 @@ from matplotlib import pyplot as plt
 from tle import constants
 from tle.util import codeforces_common as cf_common
 from tle.util import discord_common, font_downloader
-# from tle.util import clist_api
+from tle.util import clist_api
 
 
 def setup():
